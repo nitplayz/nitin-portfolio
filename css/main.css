@@ -5,7 +5,7 @@
 }
 
 *{
-    margin: 0;
+    margin: -1px;
     padding: 0;
     font-family: 'Nunito', sans-serif;
     box-sizing: border-box;
@@ -430,8 +430,8 @@ header .navbar ul li a:hover{
 .discord{
     margin-bottom: 2;
     border-style:solid ;
-    background-color: #7289da;
-    border-color: #7289da;
+    background-color: #5D64EF;
+    border-color: #5D64EF;
     color: #fff;
     height: 3rem;
 }
@@ -443,7 +443,8 @@ header .navbar ul li a:hover{
 .yt{
     margin-bottom: 2;
     margin-left: 2rem;
-    border-style:sloid ;
+    border-style:solid;
+    color: #fff;
     background-color:  #fa0808;
     ;
     border-color: #fa0808;
@@ -461,6 +462,7 @@ header .navbar ul li a:hover{
     border-style:solid ;
     background-color:  rgb(56, 250, 8);
     ;
+    color: #fff;
     border-color: rgb(56, 250, 8);
     height: 3rem;
 }
@@ -475,11 +477,20 @@ header .navbar ul li a:hover{
 .insta{
     margin-bottom: 2;
     margin-left: 2rem;
+    color: #fff;
     border-style:solid ;
     background-color:  rgb(250, 8, 238);
     ;
     border-color: rgb(250, 8, 238);
     height: 3rem;
+}
+
+.footer{
+
+    text-align: center;
+    color: #fff;
+    background-color: #111;
+    font-size: 2rem;
 }
 
 
@@ -561,4 +572,11 @@ header .navbar ul li a:hover{
     .contact .row form{
         margin: 3rem 0;
     }
+
+    .yt .discord .fb .insta{
+        width: 100%;
+        margin: 3rem 0;
+    }
+
+
 }
